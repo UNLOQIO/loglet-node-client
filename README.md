@@ -42,18 +42,15 @@ Go to https://loglet.io, login with UNLOQ and create an application
     })
     
 #### FAQ
-Q: What data is encrypted?
-
-A: By default, the client encrypts the following fields:
+- Q: What data is encrypted?
+- A: By default, the client encrypts the following fields:
  - message
  - data
  - error
 
 
-Q: Can you read any of my logs?
+- Q: Can you read any of my logs?
+- A: Our servers work in a zero-knowledge state. That means that the node.js client encrypts the data before it sends it to our API for storage and livestream. The secret key is used to encrypt and decrypt all data, it is never stored in plaintext and we will never have access to it.
 
-A: Our servers work in a zero-knowledge state. That means that the node.js client encrypts the data before it sends it to our API for storage and livestream. The secret key is used to encrypt and decrypt all data, it is never stored in plaintext and we will never have access to it.
-
-Q: How can you not have access to the secret key?
-
-A: UNLOQ.io offers personal encryption keys for each user. The key is delivered directly in the user's browser and is used by the browser to encrypt all data before it sends it to our servers.
+- Q: How can you not have access to the secret key?
+- A: UNLOQ.io offers personal encryption keys for each user. The key is delivered directly in the user's browser and is used by the browser to encrypt all data before it sends it to our servers.
