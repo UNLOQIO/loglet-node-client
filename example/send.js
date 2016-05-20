@@ -9,7 +9,7 @@
  * If you want encryption to happen on the client, you must use the short API key and
  * the API Secret
  * */
-var loglet = require('../lib/loglet');  // require('loglet-io');
+var loglet = require('../lib/loglet');  // require('loglet.io');
 
 loglet({
   key: 'YOUR_Ap_KEY',
