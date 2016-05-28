@@ -1,7 +1,7 @@
 {
   "name": "loglet.io",
   "author": "Loglet.io",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "dependencies": {
     "socket.io-client": "1.4.x"
   },
